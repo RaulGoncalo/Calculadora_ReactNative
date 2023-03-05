@@ -1,4 +1,4 @@
-package com.calculadora;
+package com.raulsilva.calculadora.reactnative;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
