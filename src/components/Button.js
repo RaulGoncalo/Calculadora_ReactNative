@@ -7,13 +7,11 @@ const styles = StyleSheet.create({
         height: Dimensions.get('window').width / 4,
         textAlign: 'center',
         padding: 20,
-
         backgroundColor: '#707070',
         borderStyle: 'solid',
         borderColor: '#000',
         borderWidth: 0.5,
         borderRadius: 4,
-
         color: "#fff",
         fontSize: 40,
         fontWeight: '200',
@@ -34,7 +32,7 @@ const styles = StyleSheet.create({
     },
 });
 
-export default function Keys({ element, onClick, double, operation, darkButton }) {
+export default function Button({ element, onClick, double, operation, darkButton }) {
     const stylesButton = [styles.container]
 
     if (double) stylesButton.push(styles.buttonDouble)
